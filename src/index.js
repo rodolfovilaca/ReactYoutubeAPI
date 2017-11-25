@@ -5,7 +5,7 @@ import SearchBar from './components/search_bar'
 import VideoList from './components/video_list'
 import VideoDetail from './components/video_detail'
 import _ from 'lodash'
-const API_KEY = "AIzaSyBd4Af59erQT1S-SuCmXNdXgluePhfRz9w";
+const API_KEY = ENV['YOUTUBE_KEY'];
 
 class App extends Component {
   constructor(props){
